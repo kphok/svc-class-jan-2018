@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("misoramen.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: #ff8300;
+    font-size: 48px;
+}
+.navbar {
+  background: #ff8300;
+  height: 24px;
+}
+.topnav {
+  color: green;
+}
