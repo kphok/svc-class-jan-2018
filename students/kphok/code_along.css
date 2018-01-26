@@ -1,0 +1,12 @@
+body {
+  height: 304px;
+  width: 345px;
+  background: #fafafa;
+  shadow: 0px 7px 35px 0px;
+  radius: 2px;
+  margin: 14px;
+}
+img {
+  height: 176px;
+  width: 345px;
+}
